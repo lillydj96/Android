@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="user"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:id="@+id/user"
+        android:textSize="25dp"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="date"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:id="@+id/dateTime"
+        android:textSize="25dp"
+        android:text=""/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="price"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:id="@+id/priceBid"
+        android:text=""
+        android:textSize="25dp"/>
+</LinearLayout>
